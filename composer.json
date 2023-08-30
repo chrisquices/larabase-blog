@@ -1,0 +1,23 @@
+{
+    "name": "chrisquices/blog",
+    "description": "Provides basic blog functionalities",
+    "authors": [
+        {
+            "name": "Christopher Quiñonez",
+            "email": "chrisquices@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    }
+}

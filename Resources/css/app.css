@@ -1,0 +1,36 @@
+.ck-toolbar {
+    @apply !bg-base-100 !rounded-t-xl !border-slate-300 !border-[1px];
+}
+
+.ck-toolbar__separator {
+    @apply !bg-slate-950;
+}
+
+[data-theme="light"] .ck-icon, [data-theme="light"] .ck-button__label {
+    @apply !text-slate-600;
+}
+
+.ck-content {
+    @apply !bg-base-100 !rounded-b-xl !border-slate-300 !px-4 !shadow-none;
+
+    height: 550px !important;
+}
+
+[data-theme="dark"] .ck-toolbar {
+    @apply !bg-slate-950 !border-[1px] !border-slate-700;
+}
+
+[data-theme="dark"] .ck-icon, [data-theme="dark"] .ck-button__label {
+    @apply !text-slate-400;
+}
+
+[data-theme="dark"] .ck-content {
+    @apply !bg-slate-950 !border-[1px] !border-slate-700;
+}
+
+[data-theme="dark"] .ck-toolbar__separator {
+    @apply !bg-base-100;
+}
+
+
+
